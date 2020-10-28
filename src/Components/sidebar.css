@@ -1,0 +1,95 @@
+.sidebar{
+    display: flex;
+    flex-direction: column; 
+    /* // hang ngang tren and column-reverse o bottom */
+    flex: 0.25;
+    height: 100vh;
+    background-color: #2f3135;
+}
+.sidebar__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2f3135;
+    color: white;
+    border-bottom: 3px solid #26282c;
+}
+.sidebar__channels{
+    flex: 1;
+    overflow: scroll;
+}
+.sidebar__header > h4{
+    position: sticky;
+}
+.sidebar__channels::-webkit-scrollbar{
+    display: none;
+}
+.sidebar__addChannels{
+    cursor: pointer;
+    
+}
+.sidebar__addChannels:hover{
+    color: white;
+}
+.sidebar__channelsHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #2f3135;
+    color: gray;
+}
+.sidebar__header{
+    display: flex;
+}
+.sidebar__voice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid gray;
+    background-color: #2f3135;
+    margin-left: 15px;
+}
+.sidebar__voiceInfo{
+    flex: 1;
+    padding: 10px;
+}
+.sidebar__voiceIcon{
+    color: green;
+}
+.sidebar__voiceInfo >h3{
+    color: green;
+}
+.sidebar__voiceIcons{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    
+}
+.sidebar__voiceInfo >p {
+    font-size: smaller;
+}
+.sidebar__profiles{
+    display: flex;
+    /* padding: 10px; */
+    margin-left: 15px;
+    align-items: center;
+    border-top: 1px solid gray;
+    /* margin-bottom: 25px; */
+    cursor: pointer;
+}
+
+.sidebar__profilesInfo{
+    flex: 1;
+    padding: 10px;
+}
+
+.sidebar__profilesInfo > h3 {
+    color: white;
+}
+.sidebar__profilesIcons {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
